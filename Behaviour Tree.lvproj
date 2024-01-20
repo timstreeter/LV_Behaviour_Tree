@@ -13,11 +13,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Leafs" Type="Folder">
-				<Item Name="Test Log.vi" Type="VI" URL="../Source/Test Log/Test Log.vi"/>
+				<Item Name="Test Log.vi" Type="VI" URL="../Test/Test Log/Test Log.vi"/>
 			</Item>
-			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Source/Test Log/Test Log.lvclass"/>
+			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Test/Test Log/Test Log.lvclass"/>
 			<Item Name="Test Sequence.vi" Type="VI" URL="../Test/Test Sequence.vi"/>
-			<Item Name="Test System.lvclass" Type="LVClass" URL="../Source/Test System/Test System.lvclass"/>
+			<Item Name="Test System.lvclass" Type="LVClass" URL="../Test/Test System/Test System.lvclass"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -48,7 +48,6 @@
 			<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Integer/Abs_Integer.lvclass"/>
 			<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
 			<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
-			<Item Name="Abs_String.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/String/Abs_String.lvclass"/>
 			<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Time/Abs_Time.lvclass"/>
 			<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Type/Abs_Type.lvclass"/>
 			<Item Name="Abs_U8 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/U8 Integer/Abs_U8 Integer.lvclass"/>
@@ -71,6 +70,15 @@
 			<Item Name="AbsComp_Two Term_U16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/Compare/Two Term/U16/AbsComp_Two Term_U16.lvclass"/>
 			<Item Name="AbsComp_Two Term_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/Compare/Two Term/U32/AbsComp_Two Term_U32.lvclass"/>
 			<Item Name="AbsComp_Two Term_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/Compare/Two Term/U64/AbsComp_Two Term_U64.lvclass"/>
+			<Item Name="AbsFunc_One Term_Bool.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/Boolean/AbsFunc_One Term_Bool.lvclass"/>
+			<Item Name="AbsFunc_One Term_I8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/I8/AbsFunc_One Term_I8.lvclass"/>
+			<Item Name="AbsFunc_One Term_I16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/I16/AbsFunc_One Term_I16.lvclass"/>
+			<Item Name="AbsFunc_One Term_I32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/I32/AbsFunc_One Term_I32.lvclass"/>
+			<Item Name="AbsFunc_One Term_I64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/I64/AbsFunc_One Term_I64.lvclass"/>
+			<Item Name="AbsFunc_One Term_U8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/U8/AbsFunc_One Term_U8.lvclass"/>
+			<Item Name="AbsFunc_One Term_U16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/U16/AbsFunc_One Term_U16.lvclass"/>
+			<Item Name="AbsFunc_One Term_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/U32/AbsFunc_One Term_U32.lvclass"/>
+			<Item Name="AbsFunc_One Term_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/One Terminal/U64/AbsFunc_One Term_U64.lvclass"/>
 			<Item Name="AbsFunc_Two Term_Bool.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/Two Terminal/Boolean/AbsFunc_Two Term_Bool.lvclass"/>
 			<Item Name="AbsFunc_Two Term_Complex DBL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/Two Terminal/Cmplx DBL/AbsFunc_Two Term_Complex DBL.lvclass"/>
 			<Item Name="AbsFunc_Two Term_Complex EXT.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Support/Two Terminal/Cmplx EXT/AbsFunc_Two Term_Complex EXT.lvclass"/>
@@ -115,24 +123,6 @@
 			<Item Name="AND_U16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/AND/U16/AND_U16.lvclass"/>
 			<Item Name="AND_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/AND/U32/AND_U32.lvclass"/>
 			<Item Name="AND_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/AND/U64/AND_U64.lvclass"/>
-			<Item Name="Convert To.vi" Type="VI" URL="../../LV_Abstract/Source/Functions/Conversion/Convert To.vi"/>
-			<Item Name="ConvertTo_Binary.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/Binary/ConvertTo_Binary.lvclass"/>
-			<Item Name="ConvertTo_CPLX_DBL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/CPLX_DBL/ConvertTo_CPLX_DBL.lvclass"/>
-			<Item Name="ConvertTo_CPLX_EXT.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/CPLX_EXT/ConvertTo_CPLX_EXT.lvclass"/>
-			<Item Name="ConvertTo_CPLX_SGL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/CPLX_SGL/ConvertTo_CPLX_SGL.lvclass"/>
-			<Item Name="ConvertTo_DBL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/DBL/ConvertTo_DBL.lvclass"/>
-			<Item Name="ConvertTo_EXT.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/EXT/ConvertTo_EXT.lvclass"/>
-			<Item Name="ConvertTo_I8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/I8/ConvertTo_I8.lvclass"/>
-			<Item Name="ConvertTo_I16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/I16/ConvertTo_I16.lvclass"/>
-			<Item Name="ConvertTo_I32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/I32/ConvertTo_I32.lvclass"/>
-			<Item Name="ConvertTo_I64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/I64/ConvertTo_I64.lvclass"/>
-			<Item Name="ConvertTo_JSON.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/JSON/ConvertTo_JSON.lvclass"/>
-			<Item Name="ConvertTo_SGL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/SGL/ConvertTo_SGL.lvclass"/>
-			<Item Name="ConvertTo_String.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/String/ConvertTo_String.lvclass"/>
-			<Item Name="ConvertTo_U8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/U8/ConvertTo_U8.lvclass"/>
-			<Item Name="ConvertTo_U16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/U16/ConvertTo_U16.lvclass"/>
-			<Item Name="ConvertTo_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/U32/ConvertTo_U32.lvclass"/>
-			<Item Name="ConvertTo_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Conversion/Support/U64/ConvertTo_U64.lvclass"/>
 			<Item Name="Equal.vi" Type="VI" URL="../../LV_Abstract/Source/Functions/Compare/Equal.vi"/>
 			<Item Name="Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Compare/Support/Equal/CPLX_DBL/Equal_CPLX_DBL.lvclass"/>
 			<Item Name="Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Compare/Support/Equal/CPLX_EXT/Equal_CPLX_EXT.lvclass"/>
@@ -212,6 +202,16 @@
 			<Item Name="Not Equal_U16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Compare/Support/Not Equal/U16/Not Equal_U16.lvclass"/>
 			<Item Name="Not Equal_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Compare/Support/Not Equal/U32/Not Equal_U32.lvclass"/>
 			<Item Name="Not Equal_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Compare/Support/Not Equal/U64/Not Equal_U64.lvclass"/>
+			<Item Name="NOT.vi" Type="VI" URL="../../LV_Abstract/Source/Functions/Logic/NOT.vi"/>
+			<Item Name="NOT_Bool.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/Bool/NOT_Bool.lvclass"/>
+			<Item Name="NOT_I8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/I8/NOT_I8.lvclass"/>
+			<Item Name="NOT_I16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/I16/NOT_I16.lvclass"/>
+			<Item Name="NOT_I32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/I32/NOT_I32.lvclass"/>
+			<Item Name="NOT_I64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/I64/NOT_I64.lvclass"/>
+			<Item Name="NOT_U8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/U8/NOT_U8.lvclass"/>
+			<Item Name="NOT_U16.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/U16/NOT_U16.lvclass"/>
+			<Item Name="NOT_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/U32/NOT_U32.lvclass"/>
+			<Item Name="NOT_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/NOT/U64/NOT_U64.lvclass"/>
 			<Item Name="OR.vi" Type="VI" URL="../../LV_Abstract/Source/Functions/Logic/OR.vi"/>
 			<Item Name="OR_Bool.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/OR/Bool/OR_Bool.lvclass"/>
 			<Item Name="OR_I8.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Logic/Support/OR/I8/OR_I8.lvclass"/>
@@ -240,6 +240,7 @@
 			<Item Name="Subtract_U32.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Math/Support/Subtract/U32/Subtract_U32.lvclass"/>
 			<Item Name="Subtract_U64.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Math/Support/Subtract/U64/Subtract_U64.lvclass"/>
 			<Item Name="Subtract_WFM_Numeric.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Functions/Math/Support/Subtract/WFM_Numeric/Subtract_WFM_Numeric.lvclass"/>
+			<Item Name="Test Boolean.lvclass" Type="LVClass" URL="../Source/Support/Test Boolean/Test Boolean.lvclass"/>
 			<Item Name="Vector.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Collections/Vectors/Vector/Vector.lvclass"/>
 			<Item Name="Vector_DBL.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Collections/Vectors/Vector_DBL/Vector_DBL.lvclass"/>
 		</Item>
