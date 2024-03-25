@@ -38,6 +38,7 @@
 			<Item Name="Log.lvclass" Type="LVClass" URL="../Support/Log/Log.lvclass"/>
 			<Item Name="Set Boolean.lvclass" Type="LVClass" URL="../Support/Set Boolean/Set Boolean.lvclass"/>
 			<Item Name="Set Double Float.lvclass" Type="LVClass" URL="../Support/Set Double Float/Set Double Float.lvclass"/>
+			<Item Name="Test Boolean.lvclass" Type="LVClass" URL="../Support/Test Boolean/Test Boolean.lvclass"/>
 			<Item Name="Wait.lvclass" Type="LVClass" URL="../Support/Wait/Wait.lvclass"/>
 		</Item>
 	</Item>
