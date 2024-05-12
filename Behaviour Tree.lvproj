@@ -12,11 +12,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Temperature Controller" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Controller Algorithm.vi" Type="VI" URL="../Test/Temperature Controller/Support/Controller Algorithm.vi"/>
+				</Item>
+				<Item Name="Bang Bang Temperature Controller.vi" Type="VI" URL="../Test/Temperature Controller/Bang Bang Temperature Controller.vi"/>
+			</Item>
 			<Item Name="Test Leafs" Type="Folder">
 				<Item Name="Test Log.vi" Type="VI" URL="../Test/Test Log/Test Log.vi"/>
 			</Item>
 			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Test/Test Log/Test Log.lvclass"/>
-			<Item Name="Test Sequence.vi" Type="VI" URL="../Test/Test Sequence.vi"/>
 			<Item Name="Test System.lvclass" Type="LVClass" URL="../Test/Test System/Test System.lvclass"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
@@ -28,6 +33,7 @@
 				<Item Name="Abs_Complex Double Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Double Float/Abs_Complex Double Float.lvclass"/>
 				<Item Name="Abs_Complex Extended Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Extended Float/Abs_Complex Extended Float.lvclass"/>
 				<Item Name="Abs_Complex Single Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Single Float/Abs_Complex Single Float.lvclass"/>
+				<Item Name="Abs_Constant.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Abs_Constant.vi"/>
 				<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
 				<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
 				<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
@@ -46,6 +52,7 @@
 				<Item Name="Abs_U32 Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/U32 Integer/Abs_U32 Integer.lvclass"/>
 				<Item Name="Abs_U64 Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/U64 Integer/Abs_U64 Integer.lvclass"/>
 				<Item Name="Abs_Value.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Value/Abs_Value.lvclass"/>
+				<Item Name="Abs_Variant.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Variant/Abs_Variant.lvclass"/>
 				<Item Name="Abs_Waveform.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Waveform/Abs_Waveform.lvclass"/>
 				<Item Name="AbsComp_Two Term_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/CPLX_DBL/AbsComp_Two Term_CPLX_DBL.lvclass"/>
 				<Item Name="AbsComp_Two Term_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/CPLX_EXT/AbsComp_Two Term_CPLX_EXT.lvclass"/>
@@ -63,15 +70,6 @@
 				<Item Name="AbsComp_Two Term_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/U16/AbsComp_Two Term_U16.lvclass"/>
 				<Item Name="AbsComp_Two Term_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/U32/AbsComp_Two Term_U32.lvclass"/>
 				<Item Name="AbsComp_Two Term_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/U64/AbsComp_Two Term_U64.lvclass"/>
-				<Item Name="AbsFunc_One Term_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/Boolean/AbsFunc_One Term_Bool.lvclass"/>
-				<Item Name="AbsFunc_One Term_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/I8/AbsFunc_One Term_I8.lvclass"/>
-				<Item Name="AbsFunc_One Term_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/I16/AbsFunc_One Term_I16.lvclass"/>
-				<Item Name="AbsFunc_One Term_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/I32/AbsFunc_One Term_I32.lvclass"/>
-				<Item Name="AbsFunc_One Term_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/I64/AbsFunc_One Term_I64.lvclass"/>
-				<Item Name="AbsFunc_One Term_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/U8/AbsFunc_One Term_U8.lvclass"/>
-				<Item Name="AbsFunc_One Term_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/U16/AbsFunc_One Term_U16.lvclass"/>
-				<Item Name="AbsFunc_One Term_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/U32/AbsFunc_One Term_U32.lvclass"/>
-				<Item Name="AbsFunc_One Term_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/One Terminal/U64/AbsFunc_One Term_U64.lvclass"/>
 				<Item Name="AbsFunc_Two Term_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/Two Terminal/Boolean/AbsFunc_Two Term_Bool.lvclass"/>
 				<Item Name="AbsFunc_Two Term_Complex DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/Two Terminal/Cmplx DBL/AbsFunc_Two Term_Complex DBL.lvclass"/>
 				<Item Name="AbsFunc_Two Term_Complex EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/Two Terminal/Cmplx EXT/AbsFunc_Two Term_Complex EXT.lvclass"/>
@@ -117,6 +115,34 @@
 				<Item Name="AND_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/U32/AND_U32.lvclass"/>
 				<Item Name="AND_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/U64/AND_U64.lvclass"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Bus_Access.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Omni-Bus/Bus Access/Bus_Access.lvclass"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Const_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/Bool/Const_Bool.lvclass"/>
+				<Item Name="Const_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/CPLX_DBL/Const_CPLX_DBL.lvclass"/>
+				<Item Name="Const_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/CPLX_EXT/Const_CPLX_EXT.lvclass"/>
+				<Item Name="Const_CPLX_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/CPLX_SGL/Const_CPLX_SGL.lvclass"/>
+				<Item Name="Const_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/DBL/Const_DBL.lvclass"/>
+				<Item Name="Const_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/EXT/Const_EXT.lvclass"/>
+				<Item Name="Const_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/I8/Const_I8.lvclass"/>
+				<Item Name="Const_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/I16/Const_I16.lvclass"/>
+				<Item Name="Const_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/I32/Const_I32.lvclass"/>
+				<Item Name="Const_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/I64/Const_I64.lvclass"/>
+				<Item Name="Const_Intf.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/Interface/Const_Intf.lvclass"/>
+				<Item Name="Const_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/SGL/Const_SGL.lvclass"/>
+				<Item Name="Const_Str.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/Str/Const_Str.lvclass"/>
+				<Item Name="Const_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/Time/Const_Time.lvclass"/>
+				<Item Name="Const_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/U8/Const_U8.lvclass"/>
+				<Item Name="Const_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/U16/Const_U16.lvclass"/>
+				<Item Name="Const_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/U32/Const_U32.lvclass"/>
+				<Item Name="Const_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/U64/Const_U64.lvclass"/>
+				<Item Name="Const_Variant.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/Variant/Const_Variant.lvclass"/>
+				<Item Name="Const_WFM.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/WFM/Const_WFM.lvclass"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Equal.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Equal.vi"/>
 				<Item Name="Equal_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/CPLX_DBL/Equal_CPLX_DBL.lvclass"/>
 				<Item Name="Equal_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/CPLX_EXT/Equal_CPLX_EXT.lvclass"/>
@@ -135,8 +161,19 @@
 				<Item Name="Equal_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/U32/Equal_U32.lvclass"/>
 				<Item Name="Equal_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/U64/Equal_U64.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Greater Equal_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/DBL/Greater Equal_DBL.lvclass"/>
 				<Item Name="Greater Equal_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/EXT/Greater Equal_EXT.lvclass"/>
 				<Item Name="Greater Equal_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/I8/Greater Equal_I8.lvclass"/>
@@ -195,7 +232,32 @@
 				<Item Name="Less_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less/U16/Less_U16.lvclass"/>
 				<Item Name="Less_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less/U32/Less_U32.lvclass"/>
 				<Item Name="Less_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less/U64/Less_U64.lvclass"/>
+				<Item Name="Local Bus.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Local Bus.lvclass"/>
+				<Item Name="Local Bus_Boolean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/Bool/Local Bus_Boolean.lvclass"/>
+				<Item Name="Local Bus_CDBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/CDBL/Local Bus_CDBL.lvclass"/>
+				<Item Name="Local Bus_CEXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/CEXT/Local Bus_CEXT.lvclass"/>
+				<Item Name="Local Bus_CSGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/CSGL/Local Bus_CSGL.lvclass"/>
+				<Item Name="Local Bus_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/DBL/Local Bus_DBL.lvclass"/>
+				<Item Name="Local Bus_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/EXT/Local Bus_EXT.lvclass"/>
+				<Item Name="Local Bus_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/I8/Local Bus_I8.lvclass"/>
+				<Item Name="Local Bus_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/I16/Local Bus_I16.lvclass"/>
+				<Item Name="Local Bus_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/I32/Local Bus_I32.lvclass"/>
+				<Item Name="Local Bus_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/I64/Local Bus_I64.lvclass"/>
+				<Item Name="Local Bus_Int.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/Interface/Local Bus_Int.lvclass"/>
+				<Item Name="Local Bus_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/SGL/Local Bus_SGL.lvclass"/>
+				<Item Name="Local Bus_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/STR/Local Bus_String.lvclass"/>
+				<Item Name="Local Bus_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/Time/Local Bus_Time.lvclass"/>
+				<Item Name="Local Bus_Type.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/Type/Local Bus_Type.lvclass"/>
+				<Item Name="Local Bus_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/U8/Local Bus_U8.lvclass"/>
+				<Item Name="Local Bus_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/U16/Local Bus_U16.lvclass"/>
+				<Item Name="Local Bus_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/U32/Local Bus_U32.lvclass"/>
+				<Item Name="Local Bus_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/U64/Local Bus_U64.lvclass"/>
+				<Item Name="Local Bus_Variant.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/Variant/Local Bus_Variant.lvclass"/>
+				<Item Name="Local Bus_Waveform.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Local Bus/Support/WFM/Local Bus_Waveform.lvclass"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Not Equal.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Not Equal.vi"/>
 				<Item Name="Not Equal_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Not Equal/CPLX_DBL/Not Equal_CPLX_DBL.lvclass"/>
@@ -212,16 +274,8 @@
 				<Item Name="Not Equal_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Not Equal/U16/Not Equal_U16.lvclass"/>
 				<Item Name="Not Equal_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Not Equal/U32/Not Equal_U32.lvclass"/>
 				<Item Name="Not Equal_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Not Equal/U64/Not Equal_U64.lvclass"/>
-				<Item Name="NOT.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/NOT.vi"/>
-				<Item Name="NOT_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/Bool/NOT_Bool.lvclass"/>
-				<Item Name="NOT_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/I8/NOT_I8.lvclass"/>
-				<Item Name="NOT_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/I16/NOT_I16.lvclass"/>
-				<Item Name="NOT_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/I32/NOT_I32.lvclass"/>
-				<Item Name="NOT_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/I64/NOT_I64.lvclass"/>
-				<Item Name="NOT_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/U8/NOT_U8.lvclass"/>
-				<Item Name="NOT_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/U16/NOT_U16.lvclass"/>
-				<Item Name="NOT_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/U32/NOT_U32.lvclass"/>
-				<Item Name="NOT_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/NOT/U64/NOT_U64.lvclass"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Omni_Bus.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Omni-Bus/Omni_Bus.lvclass"/>
 				<Item Name="OR.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/OR.vi"/>
 				<Item Name="OR_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/OR/Bool/OR_Bool.lvclass"/>
 				<Item Name="OR_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/OR/I8/OR_I8.lvclass"/>
@@ -232,6 +286,10 @@
 				<Item Name="OR_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/OR/U16/OR_U16.lvclass"/>
 				<Item Name="OR_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/OR/U32/OR_U32.lvclass"/>
 				<Item Name="OR_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/OR/U64/OR_U64.lvclass"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Math/Subtract.vi"/>
 				<Item Name="Subtract_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Math/Support/Subtract/CPLX_DBL/Subtract_CPLX_DBL.lvclass"/>
 				<Item Name="Subtract_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Math/Support/Subtract/CPLX_EXT/Subtract_CPLX_EXT.lvclass"/>
@@ -250,8 +308,13 @@
 				<Item Name="Subtract_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Math/Support/Subtract/U32/Subtract_U32.lvclass"/>
 				<Item Name="Subtract_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Math/Support/Subtract/U64/Subtract_U64.lvclass"/>
 				<Item Name="Subtract_WFM_Numeric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Math/Support/Subtract/WFM_Numeric/Subtract_WFM_Numeric.lvclass"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Vector.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Collections/Vectors/Vector/Vector.lvclass"/>
 				<Item Name="Vector_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Collections/Vectors/Vector_DBL/Vector_DBL.lvclass"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
