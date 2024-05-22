@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,6 +24,14 @@
 			</Item>
 			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Test/Test Log/Test Log.lvclass"/>
 			<Item Name="Test System.lvclass" Type="LVClass" URL="../Test/Test System/Test System.lvclass"/>
+			<Item Name="Test Black Board.vi" Type="VI" URL="../Test/Test Black Board.vi"/>
+		</Item>
+		<Item Name="BlackBoard" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Blackboard_Boolean.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Bool/Blackboard_Boolean.lvclass"/>
+				<Item Name="Blackboard_Intf.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Interface/Blackboard_Intf.lvclass"/>
+			</Item>
+			<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
 		</Item>
 		<Item Name="BT AbsType.lvlib" Type="Library" URL="../BT Abstract Type/BT AbsType.lvlib"/>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>

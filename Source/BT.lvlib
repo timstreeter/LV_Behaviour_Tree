@@ -35,19 +35,12 @@
 					<Item Name="bt_Log.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Log/bt_Log.lvclass"/>
 					<Item Name="bt_Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Leaf/bt_Leaf.lvclass"/>
 				</Item>
-				<Item Name="BlackBoard" Type="Folder">
-					<Item Name="Support" Type="Folder">
-						<Item Name="bt_Blackboard_Leaf Type.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Blackboard/Type/bt_Blackboard_Leaf Type.lvclass"/>
-					</Item>
-					<Item Name="bt_Blackboard Boolean Set.lvclass" Type="LVClass" URL="../bt_Blackboard Boolean Set/bt_Blackboard Boolean Set.lvclass"/>
-				</Item>
 				<Item Name="bt_Wait.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Wait/bt_Wait.lvclass"/>
 			</Item>
 			<Item Name="Support" Type="Folder">
 				<Item Name="bt_Node.lvclass" Type="LVClass" URL="../Support/Nodes/abs_Node/bt_Node.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="bt_Blackboard.lvclass" Type="LVClass" URL="../Support/Blackboard/bt_Blackboard.lvclass"/>
 		<Item Name="bt_System.lvclass" Type="LVClass" URL="../Support/abs_System/bt_System.lvclass"/>
 	</Item>
 	<Item Name="Composites" Type="Folder">
