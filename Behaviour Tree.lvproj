@@ -35,6 +35,7 @@
 		</Item>
 		<Item Name="BT AbsType.lvlib" Type="Library" URL="../BT Abstract Type/BT AbsType.lvlib"/>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
+		<Item Name="Black Board Performance Test.vi" Type="VI" URL="../Test/Black Board Performance Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
