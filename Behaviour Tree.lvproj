@@ -24,12 +24,13 @@
 			</Item>
 			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Test/Test Log/Test Log.lvclass"/>
 			<Item Name="Test System.lvclass" Type="LVClass" URL="../Test/Test System/Test System.lvclass"/>
+			<Item Name="Black Board Performance test.vi" Type="VI" URL="../Test/Black Board Performance test.vi"/>
 			<Item Name="Test Black Board.vi" Type="VI" URL="../Test/Test Black Board.vi"/>
 		</Item>
 		<Item Name="BlackBoard" Type="Folder">
 			<Item Name="Support" Type="Folder">
+				<Item Name="Blackboard_String.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Str/Blackboard_String.lvclass"/>
 				<Item Name="Blackboard_Boolean.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Bool/Blackboard_Boolean.lvclass"/>
-				<Item Name="Blackboard_Intf.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Interface/Blackboard_Intf.lvclass"/>
 			</Item>
 			<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
 		</Item>
