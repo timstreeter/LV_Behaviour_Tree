@@ -29,7 +29,6 @@
 		</Item>
 		<Item Name="BlackBoard" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="Blackboard_String.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Str/Blackboard_String.lvclass"/>
 				<Item Name="Blackboard_Boolean.lvclass" Type="LVClass" URL="../Source/Blackboard/Support/Bool/Blackboard_Boolean.lvclass"/>
 			</Item>
 			<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
