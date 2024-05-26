@@ -15,6 +15,7 @@
 					<Item Name="bt_Parallel.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/abs_Parallel/bt_Parallel.lvclass"/>
 					<Item Name="bt_Composite.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/abs_Composite/bt_Composite.lvclass"/>
 				</Item>
+				<Item Name="bt_Parallel_Threaded.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Parallel_Threaded/bt_Parallel_Threaded.lvclass"/>
 				<Item Name="bt_Parallel_Interleaved.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Parallel_Interleaved/bt_Parallel_Interleaved.lvclass"/>
 				<Item Name="bt_Selector.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Selector/bt_Selector.lvclass"/>
 				<Item Name="bt_Sequence.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Sequence/bt_Sequence.lvclass"/>
@@ -41,7 +42,6 @@
 				<Item Name="bt_Node.lvclass" Type="LVClass" URL="../Support/Nodes/abs_Node/bt_Node.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="bt_System.lvclass" Type="LVClass" URL="../Support/abs_System/bt_System.lvclass"/>
 	</Item>
 	<Item Name="Composites" Type="Folder">
 		<Item Name="Parallel - Interleaved.vi" Type="VI" URL="../Composites/Parallel - Interleaved.vi"/>
@@ -60,4 +60,5 @@
 	<Item Name="Leaves" Type="Folder">
 		<Item Name="Wait.vi" Type="VI" URL="../Leaves/Wait.vi"/>
 	</Item>
+	<Item Name="bt_System.lvclass" Type="LVClass" URL="../System/bt_System.lvclass"/>
 </Library>
