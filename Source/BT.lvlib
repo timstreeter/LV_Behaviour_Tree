@@ -35,8 +35,15 @@
 				<Item Name="Support" Type="Folder">
 					<Item Name="bt_Log.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Log/bt_Log.lvclass"/>
 					<Item Name="bt_Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Leaf/bt_Leaf.lvclass"/>
+					<Item Name="abs_Type Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/abs_Type Leaf/abs_Type Leaf.lvclass"/>
+				</Item>
+				<Item Name="Set Values" Type="Folder">
+					<Item Name="Set Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Set Boolean/Set Boolean.lvclass"/>
+					<Item Name="Set Double Float.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Set Double Float/Set Double Float.lvclass"/>
 				</Item>
 				<Item Name="bt_Wait.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Wait/bt_Wait.lvclass"/>
+				<Item Name="Assign abs_Value.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Assign abs_Value/Assign abs_Value.lvclass"/>
+				<Item Name="Test Abs_Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Test Boolean/Test Abs_Boolean.lvclass"/>
 			</Item>
 			<Item Name="Support" Type="Folder">
 				<Item Name="bt_Node.lvclass" Type="LVClass" URL="../Support/Nodes/abs_Node/bt_Node.lvclass"/>
@@ -45,6 +52,7 @@
 	</Item>
 	<Item Name="Composites" Type="Folder">
 		<Item Name="Parallel - Interleaved.vi" Type="VI" URL="../Composites/Parallel - Interleaved.vi"/>
+		<Item Name="Parallel - Threaded.vi" Type="VI" URL="../Composites/Parallel - Threaded.vi"/>
 		<Item Name="Selector.vi" Type="VI" URL="../Composites/Selector.vi"/>
 		<Item Name="Sequence.vi" Type="VI" URL="../Composites/Sequence.vi"/>
 	</Item>
@@ -58,7 +66,13 @@
 		<Item Name="Repeat Until Timeout.vi" Type="VI" URL="../Decorators/Repeat Until Timeout.vi"/>
 	</Item>
 	<Item Name="Leaves" Type="Folder">
+		<Item Name="Set Values" Type="Folder">
+			<Item Name="Set Boolean.vi" Type="VI" URL="../Leaves/Set Boolean.vi"/>
+			<Item Name="Set Double Float.vi" Type="VI" URL="../Leaves/Set Double Float.vi"/>
+		</Item>
 		<Item Name="Wait.vi" Type="VI" URL="../Leaves/Wait.vi"/>
+		<Item Name="Test Abs Boolean.vi" Type="VI" URL="../Leaves/Test Abs Boolean.vi"/>
+		<Item Name="Assign Value.vi" Type="VI" URL="../Leaves/Assign Value.vi"/>
 	</Item>
 	<Item Name="bt_System.lvclass" Type="LVClass" URL="../System/bt_System.lvclass"/>
 </Library>
