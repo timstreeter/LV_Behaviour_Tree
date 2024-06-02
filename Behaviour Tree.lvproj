@@ -41,6 +41,7 @@
 			<Item Name="Black Board Performance test.vi" Type="VI" URL="../Test/Black Board Performance test.vi"/>
 			<Item Name="Test Black Board.vi" Type="VI" URL="../Test/Test Black Board.vi"/>
 			<Item Name="Test Parallel Logic.vi" Type="VI" URL="../Test/Parallel Logic/Test Parallel Logic.vi"/>
+			<Item Name="System Performace Tests.vi" Type="VI" URL="../Test/System Performace Tests.vi"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
@@ -279,7 +280,6 @@
 				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
 				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
 			</Item>
-			<Item Name="Write Always Repeat First Node.vi" Type="VI" URL="../Source/Support/Nodes/Composites/Parallel_Interleaved/Properties/Write Always Repeat First Node.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
