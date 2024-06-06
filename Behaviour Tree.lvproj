@@ -42,9 +42,12 @@
 			<Item Name="Test Black Board.vi" Type="VI" URL="../Test/Test Black Board.vi"/>
 			<Item Name="Test Parallel Logic.vi" Type="VI" URL="../Test/Parallel Logic/Test Parallel Logic.vi"/>
 			<Item Name="System Performace Tests.vi" Type="VI" URL="../Test/System Performace Tests.vi"/>
+			<Item Name="System Tests.vi" Type="VI" URL="../Test/System Tests.vi"/>
+			<Item Name="Testing Rendevous Abort.vi" Type="VI" URL="../Test/Testing Rendevous Abort.vi"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
+		<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>

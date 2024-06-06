@@ -9,49 +9,47 @@
 
 </Property>
 	<Item Name="Support" Type="Folder">
-		<Item Name="Nodes" Type="Folder">
-			<Item Name="Composites" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="bt_Parallel.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/abs_Parallel/bt_Parallel.lvclass"/>
-					<Item Name="bt_Composite.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/abs_Composite/bt_Composite.lvclass"/>
-				</Item>
-				<Item Name="bt_Parallel_Threaded.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Parallel_Threaded/bt_Parallel_Threaded.lvclass"/>
-				<Item Name="bt_Parallel_Interleaved.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Parallel_Interleaved/bt_Parallel_Interleaved.lvclass"/>
-				<Item Name="bt_Selector.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Selector/bt_Selector.lvclass"/>
-				<Item Name="bt_Sequence.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Sequence/bt_Sequence.lvclass"/>
-			</Item>
-			<Item Name="Decorators" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="bt_Decorator.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Support/Decorator/bt_Decorator.lvclass"/>
-				</Item>
-				<Item Name="bt_Failure.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Failure/bt_Failure.lvclass"/>
-				<Item Name="bt_Not.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Not/bt_Not.lvclass"/>
-				<Item Name="bt_Repeat Until Count.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Repeat Until Count/bt_Repeat Until Count.lvclass"/>
-				<Item Name="bt_Repeat Until Timeout.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Repeat Until Timeout/bt_Repeat Until Timeout.lvclass"/>
-				<Item Name="bt_Repeater.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Repeater/bt_Repeater.lvclass"/>
-				<Item Name="bt_Succeed.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Succeed/bt_Succeed.lvclass"/>
-			</Item>
-			<Item Name="Leafs" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="bt_Log.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Log/bt_Log.lvclass"/>
-					<Item Name="bt_Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Leaf/bt_Leaf.lvclass"/>
-					<Item Name="abs_Type Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/abs_Type Leaf/abs_Type Leaf.lvclass"/>
-				</Item>
-				<Item Name="Set Values" Type="Folder">
-					<Item Name="Set Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Set Boolean/Set Boolean.lvclass"/>
-					<Item Name="Set Double Float.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Set Double Float/Set Double Float.lvclass"/>
-				</Item>
-				<Item Name="bt_Wait.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Wait/bt_Wait.lvclass"/>
-				<Item Name="Assign abs_Value.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Assign abs_Value/Assign abs_Value.lvclass"/>
-				<Item Name="Test Abs_Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Test Boolean/Test Abs_Boolean.lvclass"/>
-			</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="bt_Node.lvclass" Type="LVClass" URL="../Support/Nodes/abs_Node/bt_Node.lvclass"/>
+		</Item>
+		<Item Name="Composites" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="bt_Node.lvclass" Type="LVClass" URL="../Support/Nodes/abs_Node/bt_Node.lvclass"/>
+				<Item Name="bt_Parallel.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/abs_Parallel/bt_Parallel.lvclass"/>
+				<Item Name="bt_Composite.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/abs_Composite/bt_Composite.lvclass"/>
 			</Item>
+			<Item Name="bt_Parallel_Threaded.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Parallel_Threaded/bt_Parallel_Threaded.lvclass"/>
+			<Item Name="bt_Parallel_Interleaved.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Parallel_Interleaved/bt_Parallel_Interleaved.lvclass"/>
+			<Item Name="bt_Selector.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Selector/bt_Selector.lvclass"/>
+			<Item Name="bt_Sequence.lvclass" Type="LVClass" URL="../Support/Nodes/Composites/Sequence/bt_Sequence.lvclass"/>
+		</Item>
+		<Item Name="Decorators" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="bt_Decorator.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Support/Decorator/bt_Decorator.lvclass"/>
+			</Item>
+			<Item Name="bt_Failure.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Failure/bt_Failure.lvclass"/>
+			<Item Name="bt_Not.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Not/bt_Not.lvclass"/>
+			<Item Name="bt_Repeat Until Count.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Repeat Until Count/bt_Repeat Until Count.lvclass"/>
+			<Item Name="bt_Repeat Until Timeout.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Repeat Until Timeout/bt_Repeat Until Timeout.lvclass"/>
+			<Item Name="bt_Repeater.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Repeater/bt_Repeater.lvclass"/>
+			<Item Name="bt_Succeed.lvclass" Type="LVClass" URL="../Support/Nodes/Decorators/Succeed/bt_Succeed.lvclass"/>
+		</Item>
+		<Item Name="Leafs" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="bt_Log.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Log/bt_Log.lvclass"/>
+				<Item Name="bt_Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Leaf/bt_Leaf.lvclass"/>
+				<Item Name="abs_Type Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/abs_Type Leaf/abs_Type Leaf.lvclass"/>
+			</Item>
+			<Item Name="Set Values" Type="Folder">
+				<Item Name="Set Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Set Boolean/Set Boolean.lvclass"/>
+				<Item Name="Set Double Float.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Set Double Float/Set Double Float.lvclass"/>
+			</Item>
+			<Item Name="bt_Wait.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Wait/bt_Wait.lvclass"/>
+			<Item Name="Assign abs_Value.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Assign abs_Value/Assign abs_Value.lvclass"/>
+			<Item Name="Test Abs_Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Test Boolean/Test Abs_Boolean.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Composites" Type="Folder">
-		<Item Name="Parallel - Interleaved.vi" Type="VI" URL="../Composites/Parallel - Interleaved.vi"/>
+		<Item Name="Parallel.vi" Type="VI" URL="../Composites/Parallel.vi"/>
 		<Item Name="Parallel - Threaded.vi" Type="VI" URL="../Composites/Parallel - Threaded.vi"/>
 		<Item Name="Selector.vi" Type="VI" URL="../Composites/Selector.vi"/>
 		<Item Name="Sequence.vi" Type="VI" URL="../Composites/Sequence.vi"/>
