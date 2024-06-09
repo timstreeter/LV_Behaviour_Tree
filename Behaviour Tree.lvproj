@@ -30,7 +30,6 @@
 				<Item Name="LV2 Global Performance Test.vi" Type="VI" URL="../Test/Performance Tests/LV2 Global Performance Test.vi"/>
 			</Item>
 			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Test/Test Log/Test Log.lvclass"/>
-			<Item Name="Test System.lvclass" Type="LVClass" URL="../Test/Test System/Test System.lvclass"/>
 			<Item Name="Test Threaded Parallel.vi" Type="VI" URL="../Test/Test Threaded Parallel.vi"/>
 			<Item Name="Black Board Performance test.vi" Type="VI" URL="../Test/Black Board Performance test.vi"/>
 			<Item Name="Test Black Board.vi" Type="VI" URL="../Test/Test Black Board.vi"/>
