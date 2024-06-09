@@ -13,12 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Temperature Controller" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="Controller Algorithm.vi" Type="VI" URL="../Test/Temperature Controller/Support/Controller Algorithm.vi"/>
-				</Item>
-				<Item Name="Bang Bang Temperature Controller.vi" Type="VI" URL="../Test/Temperature Controller/Bang Bang Temperature Controller.vi"/>
-			</Item>
 			<Item Name="Test Leafs" Type="Folder">
 				<Item Name="Test Log.vi" Type="VI" URL="../Test/Test Log/Test Log.vi"/>
 			</Item>
@@ -44,10 +38,25 @@
 			<Item Name="System Performace Tests.vi" Type="VI" URL="../Test/System Performace Tests.vi"/>
 			<Item Name="System Tests.vi" Type="VI" URL="../Test/System Tests.vi"/>
 			<Item Name="Testing Rendevous Abort.vi" Type="VI" URL="../Test/Testing Rendevous Abort.vi"/>
+			<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
+		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Temperature Controller" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Controller Algorithm.vi" Type="VI" URL="../Source/Examples/Temperature Controller/Support/Controller Algorithm.vi"/>
+				</Item>
+				<Item Name="Bang Bang Temperature Controller.vi" Type="VI" URL="../Source/Examples/Temperature Controller/Bang Bang Temperature Controller.vi"/>
+			</Item>
+			<Item Name="BT Example 1 - Repeater.vi" Type="VI" URL="../Source/Examples/BT Example 1 - Repeater.vi"/>
+			<Item Name="BT Example 2 - Sequence.vi" Type="VI" URL="../Source/Examples/BT Example 2 - Sequence.vi"/>
+			<Item Name="BT Example 3 - Sequence with Failure.vi" Type="VI" URL="../Source/Examples/BT Example 3 - Sequence with Failure.vi"/>
+			<Item Name="BT Example 4 - Sequence to Modularise Tree.vi" Type="VI" URL="../Source/Examples/BT Example 4 - Sequence to Modularise Tree.vi"/>
+			<Item Name="BT Example 5 - Selector.vi" Type="VI" URL="../Source/Examples/BT Example 5 - Selector.vi"/>
+			<Item Name="BT Example 6 - Parallel.vi" Type="VI" URL="../Source/Examples/BT Example 6 - Parallel.vi"/>
+			<Item Name="BT Example 7 - Parallel Threaded.vi" Type="VI" URL="../Source/Examples/BT Example 7 - Parallel Threaded.vi"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
-		<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
