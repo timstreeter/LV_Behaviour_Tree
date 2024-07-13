@@ -38,6 +38,8 @@
 			<Item Name="System Tests.vi" Type="VI" URL="../Test/System Tests.vi"/>
 			<Item Name="Testing Rendevous Abort.vi" Type="VI" URL="../Test/Testing Rendevous Abort.vi"/>
 			<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
+			<Item Name="Test Variant to Objects.vi" Type="VI" URL="../Test/Test Variant to Objects.vi"/>
+			<Item Name="Test Queue Synch.vi" Type="VI" URL="../Test/Test Queue Synch.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Temperature Controller" Type="Folder">
@@ -290,7 +292,12 @@
 				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
 				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
 				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Abs_Simple_Read.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abs_Simple_Read.vi"/>
+				<Item Name="Aggregator Bus.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Omni-Bus/Aggregator Bus/Aggregator Bus.lvclass"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
