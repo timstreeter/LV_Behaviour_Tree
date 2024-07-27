@@ -39,6 +39,7 @@
 			<Item Name="Testing Rendevous Abort.vi" Type="VI" URL="../Test/Testing Rendevous Abort.vi"/>
 			<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
 			<Item Name="Test Variant to Objects.vi" Type="VI" URL="../Test/Test Variant to Objects.vi"/>
+			<Item Name="Test Queue Synch with passed variable.vi" Type="VI" URL="../Test/Test Queue Synch with passed variable.vi"/>
 			<Item Name="Test Queue Synch.vi" Type="VI" URL="../Test/Test Queue Synch.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
@@ -58,7 +59,6 @@
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
-		<Item Name="Test Queue Synch with passed variable.vi" Type="VI" URL="../Test/Test Queue Synch with passed variable.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
