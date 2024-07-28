@@ -41,27 +41,6 @@
 			</Item>
 			<Item Name="Synch" Type="Folder">
 				<Item Name="Support" Type="Folder">
-					<Item Name="Data Objects" Type="Folder">
-						<Item Name="SynchType_Variant.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/Variant/SynchType_Variant.lvclass"/>
-						<Item Name="SynchType_Time.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/Time/SynchType_Time.lvclass"/>
-						<Item Name="SynchType_WFM.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/WFM/SynchType_WFM.lvclass"/>
-						<Item Name="SynchType_DBL.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/DBL/SynchType_DBL.lvclass"/>
-						<Item Name="SynchType_SGL.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/SGL/SynchType_SGL.lvclass"/>
-						<Item Name="SynchType_EXT.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/EXT/SynchType_EXT.lvclass"/>
-						<Item Name="SynchType_CEXT.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/CEXT/SynchType_CEXT.lvclass"/>
-						<Item Name="SynchType_CDBL.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/CDBL/SynchType_CDBL.lvclass"/>
-						<Item Name="SynchType_CSGL.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/CSGL/SynchType_CSGL.lvclass"/>
-						<Item Name="SynchType_I8.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/I8/SynchType_I8.lvclass"/>
-						<Item Name="SynchType_I16.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/I16/SynchType_I16.lvclass"/>
-						<Item Name="SynchType_I32.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/I32/SynchType_I32.lvclass"/>
-						<Item Name="SynchType_I64.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/I64/SynchType_I64.lvclass"/>
-						<Item Name="SynchType_U8.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/U8/SynchType_U8.lvclass"/>
-						<Item Name="SynchType_U16.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/U16/SynchType_U16.lvclass"/>
-						<Item Name="SynchType_U32.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/U32/SynchType_U32.lvclass"/>
-						<Item Name="SynchType_U64.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/U64/SynchType_U64.lvclass"/>
-						<Item Name="SynchType_STR.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/STR/SynchType_STR.lvclass"/>
-						<Item Name="SynchType_Bool.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Data Objects/Boolean/SynchType_Bool.lvclass"/>
-					</Item>
 					<Item Name="bt_WaitOn_Synch_WithValues.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/With Values/WaitOn/bt_WaitOn_Synch_WithValues.lvclass"/>
 					<Item Name="bt_WaitOn_Synch.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Parent/WaitOn/bt_WaitOn_Synch.lvclass"/>
 					<Item Name="bt_Send_Synch.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Parent/Send/bt_Send_Synch.lvclass"/>
@@ -70,6 +49,10 @@
 				<Item Name="Queue" Type="Folder">
 					<Item Name="bt_Send_Queue.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Queue/Send/bt_Send_Queue.lvclass"/>
 					<Item Name="bt_WaitOn_Queue.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Queue/WaitOn/bt_WaitOn_Queue.lvclass"/>
+				</Item>
+				<Item Name="Notifier" Type="Folder">
+					<Item Name="bt_Send_Notifier.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Notifier/Send/bt_Send_Notifier.lvclass"/>
+					<Item Name="bt_WaitOn_Notifier.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Notifier/WaitOn/bt_WaitOn_Notifier.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="bt_Wait.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Wait/bt_Wait.lvclass"/>
@@ -93,6 +76,8 @@
 	</Item>
 	<Item Name="Leaves" Type="Folder">
 		<Item Name="Synch" Type="Folder">
+			<Item Name="SendTo_Notifier.vi" Type="VI" URL="../Leaves/SendTo_Notifier.vi"/>
+			<Item Name="WaitOn_Notifier.vi" Type="VI" URL="../Leaves/WaitOn_Notifier.vi"/>
 			<Item Name="WaitOn_Queue.vi" Type="VI" URL="../Leaves/WaitOn_Queue.vi"/>
 			<Item Name="SendTo_Queue.vi" Type="VI" URL="../Leaves/SendTo_Queue.vi"/>
 		</Item>

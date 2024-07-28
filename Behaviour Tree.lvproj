@@ -39,7 +39,7 @@
 			<Item Name="Testing Rendevous Abort.vi" Type="VI" URL="../Test/Testing Rendevous Abort.vi"/>
 			<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
 			<Item Name="Test Variant to Objects.vi" Type="VI" URL="../Test/Test Variant to Objects.vi"/>
-			<Item Name="Test Queue Synch with passed variable.vi" Type="VI" URL="../Test/Test Queue Synch with passed variable.vi"/>
+			<Item Name="Test Queue Synch 2.vi" Type="VI" URL="../Test/Test Queue Synch 2.vi"/>
 			<Item Name="Test Queue Synch.vi" Type="VI" URL="../Test/Test Queue Synch.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
@@ -59,6 +59,8 @@
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
+		<Item Name="Test Notifier Synch.vi" Type="VI" URL="../Test/Test Notifier Synch.vi"/>
+		<Item Name="Notifiy Counter.vi" Type="VI" URL="../Test/Support/Notifiy Counter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
@@ -296,6 +298,19 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Abs_Simple_Read.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abs_Simple_Read.vi"/>
+				<Item Name="Greater Equal_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/U64/Greater Equal_U64.lvclass"/>
+				<Item Name="Greater Equal_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/U32/Greater Equal_U32.lvclass"/>
+				<Item Name="Greater Equal_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/U16/Greater Equal_U16.lvclass"/>
+				<Item Name="Greater Equal_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/U8/Greater Equal_U8.lvclass"/>
+				<Item Name="Greater Equal_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/Time/Greater Equal_Time.lvclass"/>
+				<Item Name="Greater Equal_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/SGL/Greater Equal_SGL.lvclass"/>
+				<Item Name="Greater Equal_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/I64/Greater Equal_I64.lvclass"/>
+				<Item Name="Greater Equal_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/I32/Greater Equal_I32.lvclass"/>
+				<Item Name="Greater Equal_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/I16/Greater Equal_I16.lvclass"/>
+				<Item Name="Greater Equal_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/I8/Greater Equal_I8.lvclass"/>
+				<Item Name="Greater Equal_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/EXT/Greater Equal_EXT.lvclass"/>
+				<Item Name="Greater Equal_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/DBL/Greater Equal_DBL.lvclass"/>
+				<Item Name="Greater Than Equal to.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Greater Than Equal to.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
