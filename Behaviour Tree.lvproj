@@ -36,11 +36,13 @@
 			<Item Name="Test Parallel Logic.vi" Type="VI" URL="../Test/Parallel Logic/Test Parallel Logic.vi"/>
 			<Item Name="System Performace Tests.vi" Type="VI" URL="../Test/System Performace Tests.vi"/>
 			<Item Name="System Tests.vi" Type="VI" URL="../Test/System Tests.vi"/>
+			<Item Name="Notifiy Counter.vi" Type="VI" URL="../Test/Support/Notifiy Counter.vi"/>
 			<Item Name="Testing Rendevous Abort.vi" Type="VI" URL="../Test/Testing Rendevous Abort.vi"/>
 			<Item Name="Testing Notification Abort.vi" Type="VI" URL="../Test/Testing Notification Abort.vi"/>
 			<Item Name="Test Variant to Objects.vi" Type="VI" URL="../Test/Test Variant to Objects.vi"/>
 			<Item Name="Test Queue Synch 2.vi" Type="VI" URL="../Test/Test Queue Synch 2.vi"/>
 			<Item Name="Test Queue Synch.vi" Type="VI" URL="../Test/Test Queue Synch.vi"/>
+			<Item Name="Test Timeout Manager.vi" Type="VI" URL="../Test/Test Timeout Manager.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Temperature Controller" Type="Folder">
@@ -56,11 +58,11 @@
 			<Item Name="BT Example 5 - Selector.vi" Type="VI" URL="../Source/Examples/BT Example 5 - Selector.vi"/>
 			<Item Name="BT Example 6 - Parallel.vi" Type="VI" URL="../Source/Examples/BT Example 6 - Parallel.vi"/>
 			<Item Name="BT Example 7 - Parallel Threaded.vi" Type="VI" URL="../Source/Examples/BT Example 7 - Parallel Threaded.vi"/>
+			<Item Name="BT Example 8 - Notifier Synch.vi" Type="VI" URL="../Source/Examples/BT Example 8 - Notifier Synch.vi"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
-		<Item Name="Test Notifier Synch.vi" Type="VI" URL="../Test/Test Notifier Synch.vi"/>
-		<Item Name="Notifiy Counter.vi" Type="VI" URL="../Test/Support/Notifiy Counter.vi"/>
+		<Item Name="Notify Counter Branch.vi" Type="VI" URL="../Source/Examples/Support/Notify Counter Branch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
