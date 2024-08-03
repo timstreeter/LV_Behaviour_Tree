@@ -51,6 +51,11 @@
 				</Item>
 				<Item Name="Bang Bang Temperature Controller.vi" Type="VI" URL="../Source/Examples/Temperature Controller/Bang Bang Temperature Controller.vi"/>
 			</Item>
+			<Item Name="Support" Type="Folder">
+				<Item Name="Notify Counter Branch.vi" Type="VI" URL="../Source/Examples/Support/Notify Counter Branch.vi"/>
+				<Item Name="Build Blackboard Tag Table.vi" Type="VI" URL="../Source/Examples/Support/Build Blackboard Tag Table.vi"/>
+				<Item Name="Synch Type 1.ctl" Type="VI" URL="../Source/Examples/Support/Synch Type 1.ctl"/>
+			</Item>
 			<Item Name="BT Example 1 - Repeater.vi" Type="VI" URL="../Source/Examples/BT Example 1 - Repeater.vi"/>
 			<Item Name="BT Example 2 - Sequence.vi" Type="VI" URL="../Source/Examples/BT Example 2 - Sequence.vi"/>
 			<Item Name="BT Example 3 - Sequence with Failure.vi" Type="VI" URL="../Source/Examples/BT Example 3 - Sequence with Failure.vi"/>
@@ -59,10 +64,10 @@
 			<Item Name="BT Example 6 - Parallel.vi" Type="VI" URL="../Source/Examples/BT Example 6 - Parallel.vi"/>
 			<Item Name="BT Example 7 - Parallel Threaded.vi" Type="VI" URL="../Source/Examples/BT Example 7 - Parallel Threaded.vi"/>
 			<Item Name="BT Example 8 - Notifier Synch.vi" Type="VI" URL="../Source/Examples/BT Example 8 - Notifier Synch.vi"/>
+			<Item Name="BT Example 9 - Queue Synch.vi" Type="VI" URL="../Source/Examples/BT Example 9 - Queue Synch.vi"/>
 		</Item>
 		<Item Name="BT.lvlib" Type="Library" URL="../Source/BT.lvlib"/>
 		<Item Name="Blackboard.lvclass" Type="LVClass" URL="../Source/Blackboard/Blackboard.lvclass"/>
-		<Item Name="Notify Counter Branch.vi" Type="VI" URL="../Source/Examples/Support/Notify Counter Branch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
