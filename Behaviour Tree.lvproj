@@ -13,9 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Leafs" Type="Folder">
-				<Item Name="Test Log.vi" Type="VI" URL="../Test/Test Log/Test Log.vi"/>
-			</Item>
 			<Item Name="Performace Tests" Type="Folder">
 				<Item Name="Global Performance Test.vi" Type="VI" URL="../Test/Performance Tests/Global Performance Test.vi"/>
 				<Item Name="Global 1.vi" Type="VI" URL="../Test/Performance Tests/Global 1.vi"/>
@@ -29,7 +26,6 @@
 				<Item Name="LV2 Global.vi" Type="VI" URL="../Test/Performance Tests/LV2 Global.vi"/>
 				<Item Name="LV2 Global Performance Test.vi" Type="VI" URL="../Test/Performance Tests/LV2 Global Performance Test.vi"/>
 			</Item>
-			<Item Name="Test Log.lvclass" Type="LVClass" URL="../Test/Test Log/Test Log.lvclass"/>
 			<Item Name="Test Threaded Parallel.vi" Type="VI" URL="../Test/Test Threaded Parallel.vi"/>
 			<Item Name="Black Board Performance test.vi" Type="VI" URL="../Test/Black Board Performance test.vi"/>
 			<Item Name="Test Black Board.vi" Type="VI" URL="../Test/Test Black Board.vi"/>
@@ -318,6 +314,9 @@
 				<Item Name="Greater Equal_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/EXT/Greater Equal_EXT.lvclass"/>
 				<Item Name="Greater Equal_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Greater Equal/DBL/Greater Equal_DBL.lvclass"/>
 				<Item Name="Greater Than Equal to.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Greater Than Equal to.vi"/>
+				<Item Name="abs_EventLog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Event Log/abs_EventLog/abs_EventLog.lvclass"/>
+				<Item Name="Event_TextLog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Event Log/Event_TextLog/Event_TextLog.lvclass"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>

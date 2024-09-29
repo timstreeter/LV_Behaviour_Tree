@@ -35,7 +35,6 @@
 		</Item>
 		<Item Name="Leafs" Type="Folder">
 			<Item Name="Support" Type="Folder">
-				<Item Name="bt_Log.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Log/bt_Log.lvclass"/>
 				<Item Name="bt_Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Leaf/bt_Leaf.lvclass"/>
 				<Item Name="abs_Type Leaf.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/abs_Type Leaf/abs_Type Leaf.lvclass"/>
 			</Item>
@@ -55,6 +54,7 @@
 					<Item Name="bt_WaitOn_Notifier.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Synch/Notifier/WaitOn/bt_WaitOn_Notifier.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="bt_Log.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Log/bt_Log.lvclass"/>
 			<Item Name="bt_Wait.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Wait/bt_Wait.lvclass"/>
 			<Item Name="Assign abs_Value.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Assign abs_Value/Assign abs_Value.lvclass"/>
 			<Item Name="Test Abs_Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Test Boolean/Test Abs_Boolean.lvclass"/>
@@ -84,6 +84,7 @@
 		<Item Name="Wait.vi" Type="VI" URL="../Leaves/Wait.vi"/>
 		<Item Name="Test Abs Boolean.vi" Type="VI" URL="../Leaves/Test Abs Boolean.vi"/>
 		<Item Name="Assign Value.vi" Type="VI" URL="../Leaves/Assign Value.vi"/>
+		<Item Name="Log.vi" Type="VI" URL="../Leaves/Log.vi"/>
 	</Item>
 	<Item Name="bt_System.lvclass" Type="LVClass" URL="../System/bt_System.lvclass"/>
 </Library>
