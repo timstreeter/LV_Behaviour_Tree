@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-09 17:06:48" Modified_Date="2024-09-29 10:40:04" Creator="Tim" Comments="" ID="38a9632ba3f1390eaa09043b72c3f705">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-06-09 17:06:48" Modified_Date="2025-06-08 20:03:12" Creator="Tim" Comments="" ID="180e227491419bac361496c741fe796c">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Behaviour_Tree</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.2.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -19,15 +19,15 @@
     <Package_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.8.2.122</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
-      <External_Dependencies>tsa_lib_abstract_data_classes &gt;= 2.1.1.12</External_Dependencies>
-      <External_Dependencies>tsa_lib_abstract_function_classes &gt;= 1.1.0.4</External_Dependencies>
-      <External_Dependencies>tsa_lib_event_log &gt;= 1.0.0.1</External_Dependencies>
+      <External_Dependencies>tsa_lib_abstract_data_classes &gt;= 2.1.1.13</External_Dependencies>
+      <External_Dependencies>tsa_lib_abstract_function_classes &gt;= 1.2.0.5</External_Dependencies>
+      <External_Dependencies>tsa_lib_event_log &gt;= 1.0.0.2</External_Dependencies>
       <External_Dependencies>tsa_lib_omni_bus &gt;= 2.0.1.6</External_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.8.2.122</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
-      <Direct_Dependencies>tsa_lib_abstract_data_classes-2.1.1.12</Direct_Dependencies>
-      <Direct_Dependencies>tsa_lib_abstract_function_classes-1.1.0.4</Direct_Dependencies>
-      <Direct_Dependencies>tsa_lib_event_log-1.0.0.1</Direct_Dependencies>
+      <Direct_Dependencies>tsa_lib_abstract_data_classes-2.1.1.13</Direct_Dependencies>
+      <Direct_Dependencies>tsa_lib_abstract_function_classes-1.2.0.5</Direct_Dependencies>
+      <Direct_Dependencies>tsa_lib_event_log-1.0.0.2</Direct_Dependencies>
       <Direct_Dependencies>tsa_lib_omni_bus-2.0.1.6</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -115,7 +115,7 @@ Examples are included</Description>
       <Project_Templates>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;ProjectTemplates&gt;\Source\BT</Path>
       </Project_Templates>
       <Project_Provider>
         <LLB>false</LLB>
@@ -127,6 +127,12 @@ Examples are included</Description>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Templates Meta</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;ProjectTemplates&gt;\MetaData</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -138,6 +144,30 @@ Examples are included</Description>
       <Destination_Overrides>
         <Path>Examples</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Templates</Path>
+        <Destination>9</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Templates/BT</Path>
+        <Destination>9</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Templates/NILV_BehaviourTree_TemplateMetaData.xml</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Templates/BT/Basic Behaviour Tree Project</Path>
+        <Destination>9</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -156,6 +186,9 @@ Examples are included</Description>
       </Place_Folder_Contents>
       <Place_Folder_Contents>
         <Path>Examples</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Templates/Basic Behaviour Tree Project</Path>
       </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -313,7 +346,7 @@ Examples are included</Description>
         <Path>Source\Blackboard</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3734A8F46C452C5C7C0B353DD08D269</GUID>
+      <GUID>F6495DF4061A990EE3137B76302B8777</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -418,7 +451,7 @@ Examples are included</Description>
         <Path>Source\Blackboard\List Groups.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58EF7D6E0B6BCAC6A4FD8A2E7A91484F</GUID>
+      <GUID>F1B650D727E9FD628B9BD3BD083A4232</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -495,7 +528,7 @@ Examples are included</Description>
         <Path>Source\Composites\Sequence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>183535B8806322C3AB90D1A811B42E4D</GUID>
+      <GUID>864DE7D1DFE791F89E17F6781AD4ADD2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -586,7 +619,7 @@ Examples are included</Description>
         <Path>Source\Decorators\Failure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4686FC0AC82CA762F9E8837F005575C6</GUID>
+      <GUID>53D05F58F30B2FC4E56456FF699312C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -677,7 +710,7 @@ Examples are included</Description>
         <Path>Source\Leaves\Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75AFD807248501127FFEF51CED84F9B1</GUID>
+      <GUID>57EE1A0262F6EF83020177382259BADB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -768,7 +801,7 @@ Examples are included</Description>
         <Path>Source\System\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>594E70FD96C7D19378B34E124E858D7C</GUID>
+      <GUID>3C50111F7D6343451A7DA927A13983E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -845,7 +878,7 @@ Examples are included</Description>
         <Path>Source\Leaves\WaitOn_Queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96727C89FD12A7879B78312CDD350136</GUID>
+      <GUID>A22393287CC1C65E9560BCF499C02363</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

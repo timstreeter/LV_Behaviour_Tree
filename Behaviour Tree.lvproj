@@ -52,6 +52,24 @@
 				<Item Name="Build Blackboard Tag Table.vi" Type="VI" URL="../Source/Examples/Support/Build Blackboard Tag Table.vi"/>
 				<Item Name="Synch Type 1.ctl" Type="VI" URL="../Source/Examples/Support/Synch Type 1.ctl"/>
 			</Item>
+			<Item Name="Test Sequencer" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Nodes" Type="Folder">
+						<Item Name="Measure Waveform" Type="Folder">
+							<Item Name="Measure Waveform.lvclass" Type="LVClass" URL="../Source/Examples/Test Sequencer/Support/Nodes/Measure Waveform/Measure Waveform.lvclass"/>
+							<Item Name="Measure Waveform.vi" Type="VI" URL="../Source/Examples/Test Sequencer/Support/Nodes/Measure Waveform/Measure Waveform.vi"/>
+						</Item>
+					</Item>
+					<Item Name="Test Sequencer Support.lvlib" Type="Library" URL="../Source/Examples/Test Sequencer/Support/Test Sequencer Support.lvlib"/>
+				</Item>
+				<Item Name="Test Sequencer.vi" Type="VI" URL="../Source/Examples/Test Sequencer/Test Sequencer.vi"/>
+			</Item>
+			<Item Name="Car Wash" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Car Wash Support.lvlib" Type="Library" URL="../Source/Examples/Car Wash/Support/Car Wash Support.lvlib"/>
+				</Item>
+				<Item Name="Car Wash.vi" Type="VI" URL="../Source/Examples/Car Wash/Car Wash.vi"/>
+			</Item>
 			<Item Name="BT Example 1 - Repeater.vi" Type="VI" URL="../Source/Examples/BT Example 1 - Repeater.vi"/>
 			<Item Name="BT Example 2 - Sequence.vi" Type="VI" URL="../Source/Examples/BT Example 2 - Sequence.vi"/>
 			<Item Name="BT Example 3 - Sequence with Failure.vi" Type="VI" URL="../Source/Examples/BT Example 3 - Sequence with Failure.vi"/>
@@ -317,6 +335,60 @@
 				<Item Name="abs_EventLog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Event Log/abs_EventLog/abs_EventLog.lvclass"/>
 				<Item Name="Event_TextLog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Event Log/Event_TextLog/Event_TextLog.lvclass"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Concat Strings Array.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/String/Concat Strings Array.vi"/>
+				<Item Name="Concatenate_STR.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/String/support/Concatenate/Concatenate_STR.lvclass"/>
+				<Item Name="Less Than Equal to.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Less Than Equal to.vi"/>
+				<Item Name="Less Equal_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/DBL/Less Equal_DBL.lvclass"/>
+				<Item Name="Less Equal_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/EXT/Less Equal_EXT.lvclass"/>
+				<Item Name="Less Equal_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/I8/Less Equal_I8.lvclass"/>
+				<Item Name="Less Equal_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/I16/Less Equal_I16.lvclass"/>
+				<Item Name="Less Equal_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/I32/Less Equal_I32.lvclass"/>
+				<Item Name="Less Equal_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/I64/Less Equal_I64.lvclass"/>
+				<Item Name="Less Equal_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/SGL/Less Equal_SGL.lvclass"/>
+				<Item Name="Less Equal_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/U8/Less Equal_U8.lvclass"/>
+				<Item Name="Less Equal_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/U16/Less Equal_U16.lvclass"/>
+				<Item Name="Less Equal_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/U32/Less Equal_U32.lvclass"/>
+				<Item Name="Less Equal_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/U64/Less Equal_U64.lvclass"/>
+				<Item Name="Less Equal_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Less Equal/Time/Less Equal_Time.lvclass"/>
+				<Item Name="AND.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/AND.vi"/>
+				<Item Name="AND_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/Bool/AND_Bool.lvclass"/>
+				<Item Name="AbsFunc_Two Term_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Function/Two Terminal/Boolean/AbsFunc_Two Term_Bool.lvclass"/>
+				<Item Name="AND_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/I8/AND_I8.lvclass"/>
+				<Item Name="AND_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/I16/AND_I16.lvclass"/>
+				<Item Name="AND_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/I32/AND_I32.lvclass"/>
+				<Item Name="AND_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/U8/AND_U8.lvclass"/>
+				<Item Name="AND_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/U16/AND_U16.lvclass"/>
+				<Item Name="AND_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/U32/AND_U32.lvclass"/>
+				<Item Name="AND_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/U64/AND_U64.lvclass"/>
+				<Item Name="AND_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Logic/Support/AND/I64/AND_I64.lvclass"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="Equal_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/CPLX_DBL/Equal_CPLX_DBL.lvclass"/>
+				<Item Name="AbsComp_Two Term_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/CPLX_DBL/AbsComp_Two Term_CPLX_DBL.lvclass"/>
+				<Item Name="Equal_CPLX_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/CPLX_SGL/Equal_CPLX_SGL.lvclass"/>
+				<Item Name="AbsComp_Two Term_CPLX_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/CPLX_SGL/AbsComp_Two Term_CPLX_SGL.lvclass"/>
+				<Item Name="Equal_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/CPLX_EXT/Equal_CPLX_EXT.lvclass"/>
+				<Item Name="AbsComp_Two Term_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/CPLX_EXT/AbsComp_Two Term_CPLX_EXT.lvclass"/>
+				<Item Name="Equal_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/EXT/Equal_EXT.lvclass"/>
+				<Item Name="Equal_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/I8/Equal_I8.lvclass"/>
+				<Item Name="Equal_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/I16/Equal_I16.lvclass"/>
+				<Item Name="Equal_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/I32/Equal_I32.lvclass"/>
+				<Item Name="Equal_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/I64/Equal_I64.lvclass"/>
+				<Item Name="Equal_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/SGL/Equal_SGL.lvclass"/>
+				<Item Name="Equal_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/U8/Equal_U8.lvclass"/>
+				<Item Name="Equal_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/U16/Equal_U16.lvclass"/>
+				<Item Name="Equal_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/U32/Equal_U32.lvclass"/>
+				<Item Name="Equal_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/U64/Equal_U64.lvclass"/>
+				<Item Name="Equal_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/DBL/Equal_DBL.lvclass"/>
+				<Item Name="Equal_STR.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/STR/Equal_STR.lvclass"/>
+				<Item Name="AbsComp_Two Term_STR.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Support/Compare/Two Term/STR/AbsComp_Two Term_STR.lvclass"/>
+				<Item Name="Equal_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Support/Equal/Time/Equal_Time.lvclass"/>
+				<Item Name="Equal.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Functions/Compare/Equal.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>

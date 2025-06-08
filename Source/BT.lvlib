@@ -59,6 +59,12 @@
 			<Item Name="Assign abs_Value.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Assign abs_Value/Assign abs_Value.lvclass"/>
 			<Item Name="Test Abs_Boolean.lvclass" Type="LVClass" URL="../Support/Nodes/Leaves/Test Boolean/Test Abs_Boolean.lvclass"/>
 		</Item>
+		<Item Name="Poly" Type="Folder">
+			<Item Name="Log" Type="Folder">
+				<Item Name="Log_String.vi" Type="VI" URL="../Support/Poly/Log/Log_String.vi"/>
+				<Item Name="Log_StringClass.vi" Type="VI" URL="../Support/Poly/Log/Log_StringClass.vi"/>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="Composites" Type="Folder">
 		<Item Name="Sequence.vi" Type="VI" URL="../Composites/Sequence.vi"/>
